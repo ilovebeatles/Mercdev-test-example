@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Todo list
+        </h1>,
+        <TodoList
+          items={
+            Array [
+              Object {
+                "done": false,
+                "index": 1,
+                "value": "Create todo",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": false,
+                    "index": 1,
+                    "value": "Create todo",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 1,
+                    "value" => "Create todo",
+                    "done" => false,
+                  },
+                },
+              },
+              Object {
+                "done": true,
+                "index": 2,
+                "value": "Add tests",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": true,
+                    "index": 2,
+                    "value": "Add tests",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 2,
+                    "value" => "Add tests",
+                    "done" => true,
+                  },
+                },
+              },
+              Object {
+                "done": true,
+                "index": 3,
+                "value": "have a rest",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": true,
+                    "index": 3,
+                    "value": "have a rest",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 3,
+                    "value" => "have a rest",
+                    "done" => true,
+                  },
+                },
+              },
+            ]
+          }
+          markTodoDone={[Function]}
+          removeItem={[Function]}
+        />,
+        <TodoForm
+          addItem={[Function]}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Todo list",
+        },
+        "ref": null,
+        "rendered": "Todo list",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "items": Array [
+            Object {
+              "done": false,
+              "index": 1,
+              "value": "Create todo",
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "App@1.todoItems[..].keys",
+                  "observers": Set {},
+                },
+                "name": "App@1.todoItems[..]",
+                "pendingKeys": Map {
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "done": false,
+                  "index": 1,
+                  "value": "Create todo",
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "index" => 1,
+                  "value" => "Create todo",
+                  "done" => false,
+                },
+              },
+            },
+            Object {
+              "done": true,
+              "index": 2,
+              "value": "Add tests",
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "App@1.todoItems[..].keys",
+                  "observers": Set {},
+                },
+                "name": "App@1.todoItems[..]",
+                "pendingKeys": Map {
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "done": true,
+                  "index": 2,
+                  "value": "Add tests",
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "index" => 2,
+                  "value" => "Add tests",
+                  "done" => true,
+                },
+              },
+            },
+            Object {
+              "done": true,
+              "index": 3,
+              "value": "have a rest",
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "App@1.todoItems[..].keys",
+                  "observers": Set {},
+                },
+                "name": "App@1.todoItems[..]",
+                "pendingKeys": Map {
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "done": true,
+                  "index": 3,
+                  "value": "have a rest",
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "index" => 3,
+                  "value" => "have a rest",
+                  "done" => true,
+                },
+              },
+            },
+          ],
+          "markTodoDone": [Function],
+          "removeItem": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "addItem": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": true,
+        "rules": Array [
+          "
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 200px;
+  padding: 15px;
+  margin: 50px auto;
+  text-align: left;
+  box-shadow: 0 8px 19px -5px rgba(0, 0, 0, 0.11);
+",
+        ],
+      },
+      "displayName": "styled.section",
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "section",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Todo list
+          </h1>,
+          <TodoList
+            items={
+              Array [
+                Object {
+                  "done": false,
+                  "index": 1,
+                  "value": "Create todo",
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "App@1.todoItems[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "App@1.todoItems[..]",
+                    "pendingKeys": Map {
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "done": false,
+                      "index": 1,
+                      "value": "Create todo",
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "index" => 1,
+                      "value" => "Create todo",
+                      "done" => false,
+                    },
+                  },
+                },
+                Object {
+                  "done": true,
+                  "index": 2,
+                  "value": "Add tests",
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "App@1.todoItems[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "App@1.todoItems[..]",
+                    "pendingKeys": Map {
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "done": true,
+                      "index": 2,
+                      "value": "Add tests",
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "index" => 2,
+                      "value" => "Add tests",
+                      "done" => true,
+                    },
+                  },
+                },
+                Object {
+                  "done": true,
+                  "index": 3,
+                  "value": "have a rest",
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "App@1.todoItems[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "App@1.todoItems[..]",
+                    "pendingKeys": Map {
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "done": true,
+                      "index": 3,
+                      "value": "have a rest",
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "index" => 3,
+                      "value" => "have a rest",
+                      "done" => true,
+                    },
+                  },
+                },
+              ]
+            }
+            markTodoDone={[Function]}
+            removeItem={[Function]}
+          />,
+          <TodoForm
+            addItem={[Function]}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Todo list",
+          },
+          "ref": null,
+          "rendered": "Todo list",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "items": Array [
+              Object {
+                "done": false,
+                "index": 1,
+                "value": "Create todo",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": false,
+                    "index": 1,
+                    "value": "Create todo",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 1,
+                    "value" => "Create todo",
+                    "done" => false,
+                  },
+                },
+              },
+              Object {
+                "done": true,
+                "index": 2,
+                "value": "Add tests",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": true,
+                    "index": 2,
+                    "value": "Add tests",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 2,
+                    "value" => "Add tests",
+                    "done" => true,
+                  },
+                },
+              },
+              Object {
+                "done": true,
+                "index": 3,
+                "value": "have a rest",
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "App@1.todoItems[..].keys",
+                    "observers": Set {},
+                  },
+                  "name": "App@1.todoItems[..]",
+                  "pendingKeys": Map {
+                    "$$typeof" => false,
+                    "nodeType" => false,
+                    "@@__IMMUTABLE_ITERABLE__@@" => false,
+                    "@@__IMMUTABLE_RECORD__@@" => false,
+                    "_isMockFunction" => false,
+                    "toJSON" => false,
+                  },
+                  "proxy": [Circular],
+                  "target": Object {
+                    "done": true,
+                    "index": 3,
+                    "value": "have a rest",
+                    Symbol(mobx administration): [Circular],
+                  },
+                  "values": Map {
+                    "index" => 3,
+                    "value" => "have a rest",
+                    "done" => true,
+                  },
+                },
+              },
+            ],
+            "markTodoDone": [Function],
+            "removeItem": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addItem": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": true,
+          "rules": Array [
+            "
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 200px;
+  padding: 15px;
+  margin: 50px auto;
+  text-align: left;
+  box-shadow: 0 8px 19px -5px rgba(0, 0, 0, 0.11);
+",
+          ],
+        },
+        "displayName": "styled.section",
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": "section",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
